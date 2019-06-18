@@ -1,0 +1,71 @@
+.App {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px 80px 30px;
+}
+
+.WeeklyWeatherList {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.WeeklyWeatherList__oneDay {
+    width: 12.5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.WeeklyWeatherList__oneDay > span {
+    font-size: 18px;
+}
+
+.CurrentWeather {
+    border: 2px solid #fff;
+    padding: 100px 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+}
+
+.CurrentWeather__timezone, .CurrentWeather__summary {
+    font-size: 20px;
+}
+
+.CurrentWeather__temp {
+    font-size: 48px;
+}
+.CurrentWeather__temp > span {
+    display: inline;
+}
+
+.CurrentWeather__additionInfo {
+    padding-left: 40px;
+}
+.CurrentWeather__additionInfo > span {
+    padding: 6px 0px;
+}
+
+.WeeklyWeatherList__oneDay > span {
+    text-align: center;
+}
+
+span {
+    display: block;
+    width: 100%;
+}
+
+img {
+    padding: 5px 0px;
+}
